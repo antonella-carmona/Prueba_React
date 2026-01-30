@@ -6,7 +6,14 @@ Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Fireb
 
 ## 🎨 Inspiración de Diseño
 
-**Estilo:** Minimalista & Profesional con Glass Morphism  
+**Estilo:** Minimalista & Profesional con Glass Morphism
+
+**Enlaces de Inspiración:**
+
+- [Glass Morphism UI Design - Dribbble](https://dribbble.com/tags/glassmorphism)
+- [Modern Blog Design Concept - Behance](https://www.behance.net/search/projects?search=blog%20glassmorphism)
+- [Glassmorphism Generator](https://ui.glass/generator/)
+
 **Paleta de Colores:**
 
 - Fondo: Degradado azul-morado (#667eea a #764ba2)
@@ -14,7 +21,14 @@ Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Fireb
 - Primario: Azul (#2563EB) a Morado (#764ba2)
 - Texto: Blanco sobre degradado, gris oscuro en tarjetas
 
-**Referencia:** Diseño moderno inspirado en Dribbble y Behance con énfasis en efectos glass morphism, sombras suaves y transiciones fluidas.
+**Características del Diseño:**
+
+- Glass morphism con backdrop-filter blur
+- Degradado vibrante de fondo
+- Sombras suaves y transiciones fluidas
+- Cards con efecto hover de elevación
+- Botones con gradientes animados
+- Tipografía clara y jerarquía visual
 
 ## 🚀 Funcionalidades
 
