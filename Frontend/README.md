@@ -86,8 +86,8 @@ Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Fireb
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/blog-technical-test.git
-cd blog-technical-test/Frontend
+git clone https://github.com/antonella-carmona/Prueba_React.git
+cd Prueba_React/Frontend
 ```
 
 2. Instalar dependencias:
@@ -230,7 +230,7 @@ npm run deploy
    - Ve a tu repositorio en GitHub
    - Settings → Pages
    - Source: selecciona la rama `gh-pages`
-   - ¡Tu sitio estará en: `https://tuusuario.github.io/nombre-repo/`
+   - ¡Tu sitio estará en: `https://antonella-carmona.github.io/Prueba_React/`
 
 ## 📝 Notas de Desarrollo
 
@@ -272,17 +272,22 @@ Este proyecto fue desarrollado siguiendo mejores prácticas con commits cada hor
 
 ## 📧 Variables de Entorno
 
-**Importante:** El archivo `.env` debe compartirse por correo según lo solicitado en la prueba técnica. **Nunca** hacer commit de este archivo al repositorio.
+**Importante:** El archivo `.env` contiene credenciales sensibles de Firebase y **debe compartirse por correo** según lo solicitado en la prueba técnica. **Nunca** hacer commit de este archivo al repositorio.
 
-Contenido del `.env`:
+Para ejecutar el proyecto localmente:
+1. Solicitar el archivo `.env` por correo
+2. Colocarlo en la raíz del directorio `Frontend/`
+3. Ejecutar `npm install` y `npm run dev`
+
+El archivo `.env` debe tener el siguiente formato:
 
 ```env
-VITE_FIREBASE_API_KEY="AIzaSyAB2QZk-0fpSSg6w4jNSBKBfUfPTggxH7U"
-VITE_FIREBASE_AUTH_DOMAIN="blog-test-3b271.firebaseapp.com"
-VITE_FIREBASE_PROJECT_ID="blog-test-3b271"
-VITE_FIREBASE_STORAGE_BUCKET="blog-test-3b271.firebasestorage.app"
-VITE_FIREBASE_MESSAGING_SENDER_ID="605970548410"
-VITE_FIREBASE_APP_ID="1:605970548410:web:4859375473b6ecd36ba483"
+VITE_FIREBASE_API_KEY="tu_api_key_aquí"
+VITE_FIREBASE_AUTH_DOMAIN="tu_dominio_aquí"
+VITE_FIREBASE_PROJECT_ID="tu_project_id_aquí"
+VITE_FIREBASE_STORAGE_BUCKET="tu_bucket_aquí"
+VITE_FIREBASE_MESSAGING_SENDER_ID="tu_sender_id_aquí"
+VITE_FIREBASE_APP_ID="tu_app_id_aquí"
 ```
 
 ## 🎨 Decisiones de Diseño
