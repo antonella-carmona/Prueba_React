@@ -1,117 +1,117 @@
-# Blog Technical Test - React Application
+# Blog - Prueba Técnica React
 
-![Design Preview](https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=400&fit=crop)
+![Vista previa del diseño](https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=400&fit=crop)
 
-A modern, minimalist blog application built with React, Vite, Tailwind CSS, and Firebase. Features include post browsing, tag filtering, Google authentication, and user directory.
+Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Firebase. Incluye navegación de posts, filtrado por tags, autenticación con Google y directorio de usuarios.
 
-## 🎨 Design Inspiration
+## 🎨 Inspiración de Diseño
 
-**Design Style:** Minimalist & Professional  
-**Color Palette:** 
-- Primary: Blue (#2563EB)
-- Background: Light Gray (#F9FAFB)
-- Text: Dark Gray (#111827)
-- Accents: Purple gradient for user cards
+**Estilo:** Minimalista & Profesional con Glass Morphism  
+**Paleta de Colores:**
 
-**Design Reference:** Clean, card-based layout inspired by modern blogging platforms like Medium and Dev.to with emphasis on readability and white space.
+- Fondo: Degradado azul-morado (#667eea a #764ba2)
+- Tarjetas: Efecto glass con transparencia
+- Primario: Azul (#2563EB) a Morado (#764ba2)
+- Texto: Blanco sobre degradado, gris oscuro en tarjetas
 
-## 🚀 Features
+**Referencia:** Diseño moderno inspirado en Dribbble y Behance con énfasis en efectos glass morphism, sombras suaves y transiciones fluidas.
 
-### ✅ Implemented Features
+## 🚀 Funcionalidades
 
-1. **Post Listing**
-   - Display posts with main image, tags, and author information
-   - Responsive card-based grid layout
-   - Pagination support
-   - Like counter display
+### ✅ Implementadas
 
-2. **Comments Modal**
-   - Click on any post to view comments
-   - Modal overlay with smooth animations
-   - User profile pictures and timestamps
-   - Handles posts with no comments gracefully
+1. **Listado de Posts**
+   - Visualización de posts con imagen principal, tags y autor
+   - Layout responsive en grid
+   - Paginación
+   - Contador de likes
 
-3. **Tag Filtering**
-   - Display all available tags
-   - Filter posts by selected tag
-   - "All Posts" option to reset filter
-   - Visual feedback for active tag
+2. **Modal de Comentarios**
+   - Click en cualquier post para ver comentarios
+   - Modal con animaciones suaves
+   - Fotos de perfil y timestamps
+   - Manejo de posts sin comentarios
 
-4. **Google Authentication**
-   - Protected routes using Firebase Auth
-   - Google Sign-In integration
-   - Persistent login state
-   - Logout functionality
+3. **Filtrado por Tags**
+   - Visualización de todos los tags disponibles
+   - Filtrar posts por tag seleccionado
+   - Opción "All Posts" para resetear filtro
+   - Feedback visual para tag activo
 
-5. **User Directory (Protected)**
-   - Requires authentication to access
-   - Grid layout of user profiles
-   - Profile pictures and basic information
-   - Pagination for user list
-   - **Data persistence in Firebase Firestore**
+4. **Autenticación Google**
+   - Rutas protegidas con Firebase Auth
+   - Integración con Google Sign-In
+   - Estado de login persistente
+   - Funcionalidad de logout
 
-6. **Firebase Integration**
-   - User authentication with Google
-   - Firestore database for user data persistence
-   - Real-time data synchronization
+5. **Directorio de Usuarios (Protegido)**
+   - Requiere autenticación para acceder
+   - Grid layout de perfiles de usuario
+   - Fotos de perfil e información básica
+   - Paginación para lista de usuarios
 
-## 🛠️ Technologies Used
+6. **Persistencia en Firestore**
+   - Guardado automático de usuarios en Firebase
+   - Base de datos no relacional
+   - Timestamps de registro
 
-- **React 18.2** - UI library
-- **Vite** - Build tool and dev server
-- **React Router DOM** - Client-side routing
-- **Tailwind CSS** - Utility-first CSS framework
-- **Firebase** - Authentication and Firestore database
-- **DummyAPI** - Blog posts and user data
-- **GitHub Pages** - Deployment
+## 🛠️ Tecnologías Utilizadas
 
-## 📦 Installation
+- **React 18.2** - Librería UI
+- **Vite** - Herramienta de build y servidor de desarrollo
+- **React Router DOM** - Enrutamiento del lado del cliente
+- **Tailwind CSS** - Framework CSS utility-first
+- **Firebase** - Autenticación y base de datos Firestore
+- **DummyJSON** - API de posts y datos de usuarios
+- **GitHub Pages** - Despliegue
 
-1. Clone the repository:
+## 📦 Instalación
+
+1. Clonar el repositorio:
+
 ```bash
-git clone https://github.com/yourusername/blog-technical-test.git
-cd blog-technical-test
+git clone https://github.com/tuusuario/blog-technical-test.git
+cd blog-technical-test/Frontend
 ```
 
-2. Install dependencies:
+2. Instalar dependencias:
+
 ```bash
 npm install
 ```
 
-3. Create a `.env` file in the root directory (see `.env.example`):
+3. Crear archivo `.env` en la raíz del directorio Frontend:
+
 ```env
-VITE_DUMMYAPI_APP_ID=your_app_id
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_API_KEY=tu_api_key
+VITE_FIREBASE_AUTH_DOMAIN=tu_dominio
+VITE_FIREBASE_PROJECT_ID=tu_project_id
+VITE_FIREBASE_STORAGE_BUCKET=tu_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=tu_sender_id
+VITE_FIREBASE_APP_ID=tu_app_id
 ```
 
-4. Run the development server:
+4. Ejecutar el servidor de desarrollo:
+
 ```bash
 npm run dev
 ```
 
-## 🔧 Configuration
+La aplicación estará disponible en `http://localhost:5173/`
 
-### DummyAPI Setup
-1. Go to [DummyAPI](https://dummyapi.io/)
-2. Create an account
-3. Get your `app-id` from the dashboard
-4. Add it to your `.env` file
+## 🔧 Configuración
 
 ### Firebase Setup
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project
-3. Enable Authentication → Google Sign-In
-4. Enable Firestore Database
-5. Get your config from Project Settings
-6. Add credentials to `.env` file
 
-**Important Firebase Rules:**
-Add these rules in Firestore Database:
+1. Ir a [Firebase Console](https://console.firebase.google.com/)
+2. Crear un nuevo proyecto
+3. Habilitar Authentication → Google Sign-In
+4. Habilitar Firestore Database
+5. Obtener configuración desde Project Settings
+6. Agregar credenciales al archivo `.env`
+
+**Reglas de Firestore importantes:**
+
 ```javascript
 rules_version = '2';
 service cloud.firestore {
@@ -124,104 +124,178 @@ service cloud.firestore {
 }
 ```
 
-## 📁 Project Structure
+### API DummyJSON
+
+La aplicación utiliza [DummyJSON](https://dummyjson.com/) que no requiere API key. Endpoints utilizados:
+
+- `GET /posts` - Listado de posts
+- `GET /posts/tag/{tag}` - Posts por tag
+- `GET /comments/post/{id}` - Comentarios de un post
+- `GET /users` - Listado de usuarios
+
+## 📁 Estructura del Proyecto
 
 ```
-blog-technical-test/
+Frontend/
 ├── src/
 │   ├── components/
-│   │   ├── CommentsModal.jsx    # Modal for displaying post comments
-│   │   ├── Navbar.jsx           # Navigation bar with auth status
-│   │   ├── PostCard.jsx         # Individual post card component
-│   │   └── TagFilter.jsx        # Tag filtering component
+│   │   ├── CommentsModal.jsx    # Modal para mostrar comentarios
+│   │   ├── Navbar.jsx           # Barra de navegación
+│   │   ├── PostCard.jsx         # Tarjeta individual de post
+│   │   └── TagFilter.jsx        # Componente de filtrado por tags
 │   ├── pages/
-│   │   ├── Home.jsx             # Main posts listing page
-│   │   ├── Login.jsx            # Google authentication page
-│   │   └── Users.jsx            # Protected user directory
+│   │   ├── Home.jsx             # Página principal con posts
+│   │   ├── Login.jsx            # Página de autenticación Google
+│   │   └── Users.jsx            # Directorio de usuarios (protegida)
 │   ├── context/
-│   │   └── AuthContext.jsx      # Firebase auth context provider
+│   │   └── AuthContext.jsx      # Contexto de autenticación Firebase
 │   ├── config/
-│   │   └── firebase.js          # Firebase configuration
+│   │   └── firebase.js          # Configuración de Firebase
 │   ├── services/
-│   │   └── api.js               # DummyAPI service functions
-│   ├── App.jsx                  # Main app component with routing
-│   ├── main.jsx                 # App entry point
-│   └── index.css                # Tailwind CSS imports
-├── .env.example                 # Environment variables template
+│   │   └── api.js               # Funciones de servicio API
+│   ├── App.jsx                  # Componente principal con rutas
+│   ├── main.jsx                 # Punto de entrada
+│   └── index.css                # Estilos globales y Tailwind
+├── .env                         # Variables de entorno (no commitear)
 ├── package.json
 ├── vite.config.js
 ├── tailwind.config.js
 └── README.md
 ```
 
-## 🚢 Deployment
+│ │ └── api.js # DummyAPI service functions
+│ ├── App.jsx # Main app component with routing
+│ ├── main.jsx # App entry point
+│ └── index.css # Tailwind CSS imports
+├── .env.example # Environment variables template
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
 
-### GitHub Pages Deployment
+````
 
-1. Update `vite.config.js` with your repository name:
+## 🚢 Despliegue a GitHub Pages
+
+**GitHub Pages** es un servicio gratuito de GitHub que publica tu sitio web directamente desde tu repositorio. Es perfecto para proyectos frontend estáticos.
+
+### Pasos para Desplegar:
+
+1. **Actualizar vite.config.js** con el nombre de tu repositorio:
 ```javascript
-base: '/your-repo-name/'
+export default defineConfig({
+  plugins: [react()],
+  base: '/nombre-de-tu-repo/', // Ejemplo: '/blog-technical-test/'
+});
+````
+
+2. **Instalar gh-pages** (si no lo tienes):
+
+```bash
+npm install --save-dev gh-pages
 ```
 
-2. Build and deploy:
+3. **Agregar scripts en package.json**:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+
+4. **Build y Deploy**:
+
 ```bash
-npm run build
 npm run deploy
 ```
 
-3. Enable GitHub Pages in repository settings:
-   - Settings → Pages → Source: gh-pages branch
+5. **Habilitar GitHub Pages**:
+   - Ve a tu repositorio en GitHub
+   - Settings → Pages
+   - Source: selecciona la rama `gh-pages`
+   - ¡Tu sitio estará en: `https://tuusuario.github.io/nombre-repo/`
 
-## 📝 Development Notes
+## 📝 Notas de Desarrollo
 
-### Hourly Commits
-This project was developed following best practices with hourly commits:
-- Hour 1: Initial setup, API integration, basic structure
-- Hour 2: Post listing, tag filtering, comments modal
-- Hour 3: Firebase setup, authentication, protected routes
-- Hour 4: User directory, Firestore integration, styling refinement
+### Commits por Hora
 
-### Key Decisions
+Este proyecto fue desarrollado siguiendo mejores prácticas con commits cada hora:
 
-1. **Modal vs Route for Comments:** Chose modal for better UX and faster interaction
-2. **Tailwind CSS:** Provides rapid development with consistent design
-3. **Firebase:** Reliable authentication and real-time database capabilities
-4. **Component Structure:** Modular design for maintainability
+- **Hora 1:** Setup inicial, integración API, estructura básica
+- **Hora 2:** Listado de posts, filtrado por tags, modal de comentarios
+- **Hora 3:** Setup de Firebase, autenticación, rutas protegidas
+- **Hora 4:** Directorio de usuarios, integración Firestore, refinamiento de estilos
 
-### Challenges Solved
+### Decisiones Clave
 
-- Proper Firebase configuration with environment variables
-- Protected route implementation with context API
-- Efficient API calls with proper error handling
-- Responsive design across all device sizes
+1. **Modal vs Ruta para Comentarios:** Modal elegido para mejor UX
+2. **Tailwind CSS:** Desarrollo rápido con diseño consistente
+3. **Firebase:** Autenticación confiable y capacidades de base de datos en tiempo real
+4. **Glass Morphism:** Diseño moderno con efectos de transparencia y blur
+5. **DummyJSON:** API sin necesidad de API key, perfecta para prototipos
 
-## 🎯 Future Enhancements
+### Desafíos Resueltos
 
-- [ ] Search functionality for posts
-- [ ] User profiles with detailed information
-- [ ] Bookmarking favorite posts
-- [ ] Dark mode support
-- [ ] Infinite scroll instead of pagination
-- [ ] Rich text editor for comments
-- [ ] Social sharing features
+- Configuración correcta de Firebase con variables de entorno
+- Implementación de rutas protegidas con Context API
+- Llamadas eficientes a API con manejo de errores
+- Diseño responsive en todos los tamaños de dispositivo
+- Sincronización de basename entre Vite y React Router
 
-## 📧 Environment Variables
+## 🎯 Mejoras Futuras
 
-Remember to share your `.env` file via email as requested. Never commit it to the repository.
+- [ ] Funcionalidad de búsqueda de posts
+- [ ] Perfiles de usuario con información detallada
+- [ ] Guardar posts favoritos
+- [ ] Soporte para modo oscuro
+- [ ] Infinite scroll en lugar de paginación
+- [ ] Editor de texto enriquecido para comentarios
+- [ ] Funciones de compartir en redes sociales
+- [ ] Implementar i18n para múltiples idiomas
 
-## 🙏 Acknowledgments
+## 📧 Variables de Entorno
 
-- [DummyAPI](https://dummyapi.io/) - For providing the test data
-- [Unsplash](https://unsplash.com/) - For beautiful placeholder images
-- [Tailwind CSS](https://tailwindcss.com/) - For the utility-first CSS framework
-- [Firebase](https://firebase.google.com/) - For authentication and database services
+**Importante:** El archivo `.env` debe compartirse por correo según lo solicitado en la prueba técnica. **Nunca** hacer commit de este archivo al repositorio.
 
-## 📄 License
+Contenido del `.env`:
 
-This project was created as a technical test and is available for review purposes.
+```env
+VITE_FIREBASE_API_KEY="AIzaSyAB2QZk-0fpSSg6w4jNSBKBfUfPTggxH7U"
+VITE_FIREBASE_AUTH_DOMAIN="blog-test-3b271.firebaseapp.com"
+VITE_FIREBASE_PROJECT_ID="blog-test-3b271"
+VITE_FIREBASE_STORAGE_BUCKET="blog-test-3b271.firebasestorage.app"
+VITE_FIREBASE_MESSAGING_SENDER_ID="605970548410"
+VITE_FIREBASE_APP_ID="1:605970548410:web:4859375473b6ecd36ba483"
+```
+
+## 🎨 Decisiones de Diseño
+
+**Inspiración Visual:** [Enlace a Dribbble/Behance aquí]
+
+El diseño utiliza:
+
+- **Glass Morphism:** Efecto de vidrio esmerilado para tarjetas
+- **Degradados:** Fondo azul-morado vibrante
+- **Sombras Suaves:** Para profundidad y elevación
+- **Transiciones:** Animaciones suaves en hover
+- **Tipografía:** Clara y legible con jerarquía visual
+
+## 🙏 Agradecimientos
+
+- [DummyJSON](https://dummyjson.com/) - Por proveer datos de prueba
+- [Picsum Photos](https://picsum.photos/) - Imágenes placeholder
+- [Pravatar](https://i.pravatar.cc/) - Avatares de usuarios
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS
+- [Firebase](https://firebase.google.com/) - Servicios de autenticación y base de datos
+
+## 📄 Licencia
+
+Este proyecto fue creado como prueba técnica y está disponible para propósitos de revisión.
 
 ---
 
-**Developer:** [Your Name]  
-**Date:** January 2026  
-**Total Development Time:** 4 hours
+**Desarrollador:** Ivana  
+**Fecha:** Enero 2026  
+**Tiempo Total de Desarrollo:** 4 horas  
+**Demo en Vivo:** [Agregar link de GitHub Pages después del deploy]
