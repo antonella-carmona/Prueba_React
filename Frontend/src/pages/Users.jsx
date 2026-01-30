@@ -128,10 +128,10 @@ const Users = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* 30. ENCABEZADO: Título y descripción */}
       <div className="mb-10 text-center">
-        <h1 className="text-5xl font-extrabold text-white mb-3 drop-shadow-lg">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-3">
           Community Members
         </h1>
-        <p className="text-blue-100 text-lg">
+        <p className="text-gray-600 text-lg">
           Meet the people behind the stories
         </p>
       </div>
@@ -189,7 +189,7 @@ const Users = () => {
         </button>
 
         {/* 42. INDICADOR: Muestra página actual (page + 1 porque empieza en 0) */}
-        <span className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-medium shadow-lg">
+        <span className="px-6 py-2 bg-orange-600 text-white rounded-xl font-medium shadow-lg">
           Page {page + 1}
         </span>
 

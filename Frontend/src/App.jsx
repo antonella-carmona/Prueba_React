@@ -19,7 +19,7 @@ function PrivateRoute({ children }) {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Infobae-Challenge">
         <div className="min-h-screen">
           <Navbar />
           <main className="pb-12">

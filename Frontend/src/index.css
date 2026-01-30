@@ -5,8 +5,7 @@
 @layer base {
   body {
     @apply antialiased;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    background-attachment: fixed;
+    background: #ffffff;
     min-height: 100vh;
   }
 
@@ -24,9 +23,8 @@
   }
 
   .glass-effect {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #e5e5e5;
   }
 
   .card-hover {

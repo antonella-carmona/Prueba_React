@@ -6,29 +6,31 @@ Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Fireb
 
 ## 🎨 Inspiración de Diseño
 
-**Estilo:** Minimalista & Profesional con Glass Morphism
+**Estilo:** Limpio & Profesional - Identidad Visual Infobae
 
 **Enlaces de Inspiración:**
 
-- [Glass Morphism UI Design - Dribbble](https://dribbble.com/tags/glassmorphism)
-- [Modern Blog Design Concept - Behance](https://www.behance.net/search/projects?search=blog%20glassmorphism)
-- [Glassmorphism Generator](https://ui.glass/generator/)
+- [Infobae - Portal de Noticias](https://www.infobae.com/)
+- [Clean News Website Design - Dribbble](https://dribbble.com/tags/news-website)
+- [Modern Editorial Design - Behance](https://www.behance.net/search/projects?search=news%20editorial)
 
 **Paleta de Colores:**
 
-- Fondo: Degradado azul-morado (#667eea a #764ba2)
-- Tarjetas: Efecto glass con transparencia
-- Primario: Azul (#2563EB) a Morado (#764ba2)
-- Texto: Blanco sobre degradado, gris oscuro en tarjetas
+- Fondo: Blanco limpio (#FFFFFF)
+- Primario: Naranja Infobae (#FF6B00 / orange-600)
+- Tarjetas: Fondo blanco con bordes sutiles (#e5e5e5)
+- Texto: Gris oscuro (#111827) sobre blanco
+- Acentos: Naranja en botones, links y elementos interactivos
 
 **Características del Diseño:**
 
-- Glass morphism con backdrop-filter blur
-- Degradado vibrante de fondo
-- Sombras suaves y transiciones fluidas
-- Cards con efecto hover de elevación
-- Botones con gradientes animados
-- Tipografía clara y jerarquía visual
+- Estética periodística profesional
+- Fondo blanco minimalista
+- Color corporativo naranja como acento
+- Sombras sutiles para jerarquía
+- Tipografía clara y legible
+- Cards con hover suave
+- Diseño responsive y accesible
 
 ## 🚀 Funcionalidades
 
@@ -246,7 +248,7 @@ Este proyecto fue desarrollado siguiendo mejores prácticas con commits cada hor
 1. **Modal vs Ruta para Comentarios:** Modal elegido para mejor UX
 2. **Tailwind CSS:** Desarrollo rápido con diseño consistente
 3. **Firebase:** Autenticación confiable y capacidades de base de datos en tiempo real
-4. **Glass Morphism:** Diseño moderno con efectos de transparencia y blur
+4. **Identidad Infobae:** Diseño profesional periodístico con color corporativo naranja
 5. **DummyJSON:** API sin necesidad de API key, perfecta para prototipos
 
 ### Desafíos Resueltos
@@ -285,15 +287,17 @@ VITE_FIREBASE_APP_ID="1:605970548410:web:4859375473b6ecd36ba483"
 
 ## 🎨 Decisiones de Diseño
 
-**Inspiración Visual:** [Enlace a Dribbble/Behance aquí]
+**Inspiración Visual:** [Infobae](https://www.infobae.com/) - Portal líder de noticias en América Latina
 
 El diseño utiliza:
 
-- **Glass Morphism:** Efecto de vidrio esmerilado para tarjetas
-- **Degradados:** Fondo azul-morado vibrante
-- **Sombras Suaves:** Para profundidad y elevación
-- **Transiciones:** Animaciones suaves en hover
-- **Tipografía:** Clara y legible con jerarquía visual
+- **Identidad Corporativa:** Color naranja característico de Infobae
+- **Minimalismo:** Fondo blanco limpio para máxima legibilidad
+- **Estética Periodística:** Diseño profesional tipo medio editorial
+- **Sombras Sutiles:** Para jerarquía visual sin distracciones
+- **Transiciones:** Animaciones suaves en hover y estados interactivos
+- **Tipografía:** Sistema de fuentes clara con jerarquía informativa
+- **Accesibilidad:** Alto contraste y diseño responsive
 
 ## 🙏 Agradecimientos
 
@@ -312,4 +316,4 @@ Este proyecto fue creado como prueba técnica y está disponible para propósito
 **Desarrollador:** Ivana  
 **Fecha:** Enero 2026  
 **Tiempo Total de Desarrollo:** 4 horas  
-**Demo en Vivo:** [Agregar link de GitHub Pages después del deploy]
+**Demo en Vivo:** [https://ivana-username.github.io/Infobae-Challenge/](https://ivana-username.github.io/Infobae-Challenge/) _(Reemplazar "ivana-username" con tu usuario de GitHub)_

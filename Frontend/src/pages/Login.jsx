@@ -102,8 +102,8 @@ const Login = () => {
         <div className="glass-effect rounded-2xl shadow-2xl p-8 border border-white/20">
           {/* 27. ENCABEZADO: Icono, título y descripción */}
           <div className="text-center mb-8">
-            {/* 28. ICONO: Candado circular con gradiente */}
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+            {/* 28. ICONO: Candado circular con color naranja Infobae */}
+            <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -136,14 +136,14 @@ const Login = () => {
           <button
             onClick={handleGoogleLogin}
             disabled={loading}
-            className="w-full flex items-center justify-center space-x-3 px-6 py-3 bg-white border-2 border-gray-300 rounded-xl hover:bg-gray-50 hover:border-blue-400 hover:shadow-lg transition-all font-medium text-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full flex items-center justify-center space-x-3 px-6 py-3 bg-white border-2 border-gray-300 rounded-xl hover:bg-gray-50 hover:border-orange-500 hover:shadow-lg transition-all font-medium text-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {/* 33. CONDICIONAL: Si está loading, mostrar spinner */}
             {loading ? (
               <>
                 {/* 34. SPINNER: Círculo que gira */}
                 <svg
-                  className="animate-spin h-5 w-5 text-blue-600"
+                  className="animate-spin h-5 w-5 text-orange-600"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

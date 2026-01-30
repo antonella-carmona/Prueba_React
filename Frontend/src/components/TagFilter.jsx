@@ -65,7 +65,7 @@ const TagFilter = ({ selectedTag, onTagSelect }) => {
       <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center">
         {/* 17. Icono SVG de etiqueta/tag */}
         <svg
-          className="w-5 h-5 mr-2 text-blue-600"
+          className="w-5 h-5 mr-2 text-orange-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -90,11 +90,11 @@ const TagFilter = ({ selectedTag, onTagSelect }) => {
           className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
             // 20. CONDICIONAL DE ESTILOS:
             //     Si NO hay tag seleccionado (!selectedTag)
-            //     → fondo azul, texto blanco, ligeramente más grande
+            //     → fondo naranja Infobae, texto blanco, ligeramente más grande
             //     Si hay tag seleccionado
             //     → fondo blanco semi-transparente, texto gris
             !selectedTag
-              ? "bg-blue-600 text-white shadow-md scale-105"
+              ? "bg-orange-600 text-white shadow-md scale-105"
               : "bg-white/80 text-gray-700 hover:bg-white hover:shadow-md"
           }`}
         >
@@ -114,11 +114,11 @@ const TagFilter = ({ selectedTag, onTagSelect }) => {
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
               // 23. CONDICIONAL DE ESTILOS:
               //     Si este tag es el seleccionado (selectedTag === tag)
-              //     → fondo azul, texto blanco, más grande (activo)
+              //     → fondo naranja Infobae, texto blanco, más grande (activo)
               //     Si NO es el seleccionado
               //     → fondo blanco semi-transparente, texto gris (inactivo)
               selectedTag === tag
-                ? "bg-blue-600 text-white shadow-md scale-105"
+                ? "bg-orange-600 text-white shadow-md scale-105"
                 : "bg-white/80 text-gray-700 hover:bg-white hover:shadow-md"
             }`}
           >
