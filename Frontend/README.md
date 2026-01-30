@@ -1,6 +1,8 @@
 # Blog - Prueba Técnica React
 
-![Vista previa del diseño](https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=400&fit=crop)
+![Vista previa - Blog estilo Infobae con React](https://antonella-carmona.github.io/Prueba_React/screenshot.png)
+
+> **Demo en vivo:** [https://antonella-carmona.github.io/Prueba_React/](https://antonella-carmona.github.io/Prueba_React/)
 
 Aplicación web moderna de blog construida con React, Vite, Tailwind CSS y Firebase. Incluye navegación de posts, filtrado por tags, autenticación con Google y directorio de usuarios.
 
@@ -275,6 +277,7 @@ Este proyecto fue desarrollado siguiendo mejores prácticas con commits cada hor
 **Importante:** El archivo `.env` contiene credenciales sensibles de Firebase y **debe compartirse por correo** según lo solicitado en la prueba técnica. **Nunca** hacer commit de este archivo al repositorio.
 
 Para ejecutar el proyecto localmente:
+
 1. Solicitar el archivo `.env` por correo
 2. Colocarlo en la raíz del directorio `Frontend/`
 3. Ejecutar `npm install` y `npm run dev`
