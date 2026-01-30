@@ -316,4 +316,4 @@ Este proyecto fue creado como prueba técnica y está disponible para propósito
 **Desarrollador:** Ivana  
 **Fecha:** Enero 2026  
 **Tiempo Total de Desarrollo:** 4 horas  
-**Demo en Vivo:** [https://ivana-username.github.io/Infobae-Challenge/](https://ivana-username.github.io/Infobae-Challenge/) _(Reemplazar "ivana-username" con tu usuario de GitHub)_
+**Demo en Vivo:** [https://antonella-carmona.github.io/Infobae-Challenge/](https://antonella-carmona.github.io/Infobae-Challenge/)
